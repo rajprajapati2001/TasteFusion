@@ -1,4 +1,4 @@
-![icon](screenshots/horizon_cars_logo_128x128.png)
+![icon](screenshots/tastefusion_main_logo-128x114.png)
 # TasteFusion
 **TasteFusion** is a **full-stack food ordering website** where users can browse restaurants, select food items, place orders, and track delivery status. The platform includes **user authentication**, **cart management**, **order tracking**, and an **admin dashboard** for managing restaurants, menus, and orders.
 
@@ -48,9 +48,5 @@ Step 9: > and now you can Run the WebSite.
 ## **📜 License**  
 Open-source (MIT)  
 
----    
 ## ℹ️ About
 >Developed By : `Raj P. Prajapati` on `05th March 2024 `/` Tuesday`. 
-
-🔗 Live Demo: Click Here 🚀 
---- 
