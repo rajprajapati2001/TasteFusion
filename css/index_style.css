@@ -1,0 +1,176 @@
+html { scroll-behavior: smooth; }  
+body { 
+  margin: 0px;
+  padding: 0px;  
+}    
+
+/***  Split Screen   ***/
+.split-screen {
+  display: flex;
+  height: 100vh;
+  background-color: #ffffff; /* Adjust as needed */
+}
+.screen-left,
+.screen-right {
+  flex: 1;
+  background-color: #ffffff; /* Adjust as needed */
+}
+
+/***   Spinner ProgressBar  ***/    
+.progress-bar {
+  position: relative;
+  width: 200px; /* Adjust width and height as needed */
+  height: 200px;
+  border-radius: 50%;
+  transform: translate(0px, 120px);
+  background-color: #ffffff; /* Optional background color */
+}
+.center-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-47%, -47%);
+  width: 190px; /* Adjust image size as needed */
+  height: 190px;
+  border-radius: 50%;
+}
+.progress-circle {
+  width: 100%;
+  height: 100%;
+  border: 7px solid #006700;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: rotating 1.2s linear infinite;
+}
+@keyframes rotating {
+from { transform: rotate(0deg);} 
+to { transform: rotate(360deg);}   
+}
+
+/***   MAIN INDEX CSS  ***/
+.index-content {
+  display: none;
+}    
+
+.title_bar {
+  position: relative; width: 100%; height: 50px; background-image: linear-gradient(45deg, #00d200, #006d00);
+}
+.title_bar_a { position: absolute; top: 2px; left: 8px; width: 40px; height: 40px; border-radius: 50%; border: 3px solid #7b0000; }
+.title_bar_b { position: absolute; top: 6px; left: 65px; font-family: Batuphat; color: #7b0000; font-size: 32px;}
+.title_bar_c { position: absolute; top: 4px; right: 280px; }
+.title_bar_d { position: absolute; top: 4px; right: 0px; }
+.title_bar_e { position: absolute; top: 4px; right: 120px; }
+
+
+/***   Image Title   ***/
+.wc1 { position: absolute; font-family: masterykingdom; top: 100px; left: 60px; color: white; font-size: 70px; }
+.wc2 { font-size: 30px; margin-left: 10px; }
+
+/***   Float Images  ***/
+.float_images { width: 100px; height: 100px; border: 3px solid #1cff1c; border-radius: 50%; }
+.float_images:hover { width: 110px; height: 110px; border: 2px solid red; }
+.float_text { margin-left: 25px; font-family: 'masterykingdom'; color: green; }
+
+/***    Layout's   ***/
+span.title_og { font-family: system-ui; font-size: 25px; }
+.login_layout { top: 60px; right: 10px; position: absolute; width: 300px; background-color: #ffffff8b; border-radius: 12px; color: black; text-align: center; padding: 10px; }
+.signup_layout { top: 60px; right: 10px; position: absolute; width: 300px; background-color: #ffffff8b; border-radius: 12px; color: black; text-align: center; padding: 10px; }
+.admin_layout { top: 60px; right: 10px; position: absolute; width: 300px; background-color: #ffffff8b; border-radius: 12px; color: black; text-align: center; padding: 10px; }
+
+.close_butt { width: 30px; height: 30px; top: 5px; right: 5px; position: absolute; }
+
+/***   Order Section   ***/
+.order_text { font-size: 21px; }
+.order_mine_text { font-size: 12px; color: green; }
+.order_img { padding: 5px; width: 110px; height: 110px; border: 4px solid green; border-radius: 50%; }
+.order_line { border: 3px solid green; width: 65px; }
+
+.b_text { margin-left: 35px; margin-right: 40px; margin-top: 10px; font-size: 13px; color: green; font-family: cursive; font-weight: 700;}
+/***   Information Section   ***/
+
+.information_layout {width: 100%; background-color: #454545;}
+.information_layout_1{margin-left: 35px; padding-top: 12px; padding-bottom: 12px; }
+.inf_title_1{ font-family: 'ABatuphatScript'; color: white; font-size: 25px; } 
+.inf_title_2{ margin-bottom: 6px; color: #00e400; font-family: math; font-size: 13px; }
+.inf_icon{ width: 40px; height: 40px; }
+.inf_textbox { width: 250px; height: 30px; padding-left: 10px; border: 1px solid green; border-radius: 12px; font-size: 12px; margin-left: 12px; margin-right: 12px; }
+.inf_but{ width: 100px; height: 30px; font-size: 14px; color: white; background-color: green; border-radius: 12px; border: 0.5px solid white; }
+.inf_but:hover { background-color: rgb(0, 198, 0); }
+.inf_title_3{ margin-left: 60px; font-size: 12px; color: #00e400;; font-family: math; }
+
+/***   Bottom Section   ***/
+.bottom_section { background-color: black; width: 100%; padding-top: 20px; height: fit-content; position:absolute; }
+
+.company_about { font-family: system-ui; color: #adadad; position: absolute; bottom: 5px; text-align: center; width: 100%; font-size: 13px; }
+
+.about_pg { font-family: monospace; font-size: 17px; color: #ffffffcf; }
+/***  Location  ***/
+.location_title { color: white; font-family: cursive; font-size: 23px; margin-left: 30px; margin-top: 12px; }
+.location_layout { text-align: center; width: 95%; color: white; border: 2px solid #ffffff67; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; padding: 5px; }
+.location_img { width: 90px; height: 90px; margin-left: 50px; margin-right: 40px; }
+
+.grid-container {
+  font-family: math;
+  margin: 5px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  grid-gap: 13px;
+}
+.grid-item {
+  color: #ffffffbf;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.grid-item:hover {
+  color: #ffffffed;
+  text-decoration: underline;
+}
+
+/***   Developement   ***/
+.dev_icon { width: 90px; height: 90px; border-radius: 50%; border: 2px solid #00c700; }
+.dev_title { font-family: cursive; color: #00c700; font-size: 20px; margin-left: 8px; text-shadow: 2px 1px 10px white; }
+.dev_ads { width: 20px; height: 20px; margin: 2.5px; }
+
+.bottom_images { margin: 2.5px; width: 25px; height: 25px; }
+.con_list { margin-left: 10px; }
+.con_table { margin-right: 20px; margin-bottom: 20px;  padding: 5px; font-family: monospace; font-size: 12px; color: white; width: 90%;}
+.con_img { width: 140px;  height: auto; border-radius: 20px 2px 2px 20px;}
+
+
+
+/***    LOGIN & SIGNUP CSS   ***/
+.main_div { position: relative; margin-top: 10px; margin-left: 30px; padding: 5px; background-color: #00000079; width: 300px; height: auto; border-radius: 20px; }
+/*MAIN LOGO*/
+img.icon_main_logo {margin-top: 5px; border: 1px solid #002f9d; box-shadow: 0px 0px 2px 2px #ffffff; margin-bottom: 10px; border-radius: 50%; width: 50px; height: 50px;}
+img.icon_main_logo:hover {box-shadow: 0px 0px 2px 4px #002f9d;}
+
+.close_icon { background: transparent; position: absolute; top: 0; right: 0; margin-top: 5px; margin-right: 5px; width: 25px; height: 25px; }
+.close_icon:hover { box-shadow: inset 0px 0px 0px transparent; }
+.title { color: #ffffff; font-family: Verdana; font-size: 20px; }
+
+/*REGISTRATION Button A*/
+.l_reg_but_r {background-color: #00000082; color: aliceblue; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border: 0.5px solid black; width: 135px; height: 30px; }
+.l_reg_but_f {background-color: #2daeff; font-weight: 700; box-shadow: inset 0px 0px 20px #002f9d; color: white; border-top-left-radius: 12px; border-bottom-left-radius: 12px; border: 0.5px solid black; width: 135px; height: 30px; }
+
+.l_reg_but_r:hover {text-shadow: 0 0 7px #2daeff,0 0 3px #3eff2d;}
+/*REGISTRATION Button B*/
+.s_reg_but_r {background-color: #00000082; color: aliceblue; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border: 0.5px solid black; width: 135px; height: 30px; }
+.s_reg_but_f {background-color: #2daeff; font-weight: 700; box-shadow: inset 0px 0px 20px #002f9d; color: white; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border: 0.5px solid black; width: 135px; height: 30px; }
+
+.s_reg_but_r:hover {text-shadow: 0 0 7px #2daeff,0 0 3px #3eff2d;}
+
+/*RESET & SUBMIT {BUTTONS}*/
+.r_but {border-bottom-left-radius: 12px; width: 130px; height: 30px; border: 0.5px solid black; background-color: #3a3a3a82; color: white;}
+.r_but:hover {box-shadow: inset 5px 5px 5px 0px #2dafff82; font-weight: 600; border: 0.5px solid #2daeffdf;}
+.s_but {border-bottom-right-radius: 12px; width: 130px; height: 30px; border: 0.5px solid black; background-color: #3a3a3a82; color: white;}
+.s_but:hover {box-shadow: inset 5px 5px 5px 0px #2aff1282; font-weight: 600; border: 0.5px solid #2aff12d9;}
+
+.alert_text_css { font-size: 12px; color: #2aff1282; font-family: monospace; margin-bottom: 5px; }
+
+.admin_but_v { width: 100px; height: 30px; border: 0px; border-radius: 12px; margin-top: 10px; margin-left: 2.5px; margin-right: 2.5px; background-color: blueviolet; color: white; }
+.admin_but_w { width: 100px; height: 30px; border: 0px; border-radius: 12px; margin-top: 10px; margin-left: 2.5px; margin-right: 2.5px; background-color: white; color: black; }

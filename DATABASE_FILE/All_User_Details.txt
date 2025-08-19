@@ -1,0 +1,17 @@
+
+**User Login Details**
+Username: raj_prajapati
+Password: Abc_1234567890
+
+**Admin Login Details**
+Username: raj_admin
+Password: admin_18110
+
+MyAdminPHP
+http://localhost/phpmyadmin/
+
+Home Index
+http://localhost/tastefusion/index.php
+
+Admin Login Index
+http://localhost/tastefusion/admin/index.php
