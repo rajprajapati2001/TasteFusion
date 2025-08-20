@@ -17,6 +17,11 @@
 📦 **Order Management** – View, edit, and update order statuses.  
 🚪 **Admin Logout** – Secure admin session logout.  
 
+## **🙍🏻‍♂️ User Dashboard**  
+![screenshots](screenshots/UserLogin-TasteFusion-index-php.png)
+## **👨🏻‍💻 Admin Dashboard** 
+![screenshots](screenshots/AdminDashboard-TasteFusion-index-php.png)
+
 ## **🚀 How to Run?** 
 ```
 Step 1: > Extract TasteFusion.zip file.
@@ -41,10 +46,9 @@ Step 9: > and now you can Run the WebSite.
 - **Frontend:** HTML, CSS, JavaScript, bootstrap
 - **Backend:** JavaScript, PHP  
 - **Database:** MySQL
-
-## **🙍🏻‍♂️ User Dashboard**  
-## **👨🏻‍💻 Admin Dashboard**  
-## **🏠 Home Page Screenshot**  
+   
+## **🏠 Home Page Screenshot** 
+![screenshots](screenshots/HomeScreen-TasteFusion-index-php.png)
 
 ## **📜 License**  
 Open-source (MIT)  
