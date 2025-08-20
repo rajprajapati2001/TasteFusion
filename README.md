@@ -29,6 +29,7 @@ Step 7: > User Page " http://localhost/TasteFusion/index.php " Link.
 Step 8: > Admin Page " http://localhost/TasteFusion/admin/index.php " Link.
 Step 9: > and now you can Run the WebSite.
 ```
+2 know in-short [View Here🚀](DATABASE_FILE/All_User_Details.txt)
 
 ## **🔐 User name + Password** 
 |    ADMIN  |     |- |  USER   |               |
